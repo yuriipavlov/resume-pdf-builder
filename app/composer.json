@@ -1,0 +1,19 @@
+{
+    "name": "yuriipavlov/resume-pdf-builder",
+    "description": "Yurii Pavlov Resume PDF Builder",
+    "authors": [
+        {
+            "name": "Yurii Pavlov",
+            "email": "yurk.pavlov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.2.*",
+        "mpdf/mpdf": "8.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ResumePDFBuilder\\" : "src/"
+        }
+    }
+}

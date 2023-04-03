@@ -1,0 +1,14 @@
+version: "3.9"
+
+
+services:
+  
+  app:
+    build: ./docker/php
+    container_name: "resume-app"
+    restart: unless-stopped
+    volumes:
+      - ./app:/srv/app
+      - ./output:/srv/output
+
+      
